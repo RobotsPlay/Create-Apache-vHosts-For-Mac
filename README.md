@@ -1,4 +1,4 @@
-#Create-Apache-vHosts-For-Mac
+#Create Apache Vhosts On Mac
 
 Ruby script to create an Apache vhost on a Mac and add an entry to host file.
 
