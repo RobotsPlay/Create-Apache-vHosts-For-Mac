@@ -33,7 +33,7 @@ Uncomment Include /private/etc/apache2/extra/httpd-vhosts.conf in you apache con
 
 Create necessary vhost:
 
-    vhosts init /Users/someuser/Sites/somedomainname
+    vhosts create /Users/someuser/Sites/somedomainname
 
 *Do not forget to create a directory for your new vhost in /Users/someuser/Sites/somedomainname*
 
@@ -41,11 +41,11 @@ Create necessary vhost:
 
 If you wish to create a xip-io compatible vhost:
 
-    vhosts init /Users/someuser/Sites/somedomainname true
+    vhosts create /Users/someuser/Sites/somedomainname true
 
 if you wish to create a vhost with extra arguments:
 
-    vhosts init /Users/someuser/Sites/somedomainname true true
+    vhosts create /Users/someuser/Sites/somedomainname true true
 
 You can remove vhost with
 
